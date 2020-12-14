@@ -1,0 +1,27 @@
+body {font-family: sans-serif;box-sizing: border-box}
+
+.page {display: flex; background-image: url(../img/79092920_2334408106864528_7319871051475175533_n.jpg); 
+  
+    background-size: cover;min-height: 650px;min-width: 1000px}
+
+
+.page .part { padding: 20px;text-align: center; background-color: rgba(128,128,128,.3);margin:auto;display: inline-block;border-radius: 10px;min-height: 200px;min-width: 300px;box-shadow: 0 0 30px  }
+
+.page .part h3 { color: #fff;border-top: 5px solid  #0091a8;margin-top: 0;line-height: 2}
+
+.page .part input[type="text"],.page .part input[type="password"] {margin-top: 20px;padding:0px;width: 250px;background-color: rgba(128,128,128,0);border:none;border-bottom: solid 2px #0091a8;color: #fff}
+ 
+::placeholder{color:#fff;font-size: 18px}
+
+.page .part input[type="submit"]{color:#00e676 ;border: solid 2px #00e676;margin-top: 20px;width: 250px;background-color: rgba(128,128,128,0);border-radius: 6px}
+
+
+.page .part input[type="submit"]:hover {background-color: #00e676;cursor: pointer;color: #000;box-shadow: 0 0 30px #00e676;transition: all .3s linear}
+
+
+
+.page .part input[type="text"]:focus,.page .part input[type="password"]:focus{color: #fff;outline: none}
+
+
+
+/*.top {width:250px;text-align: center;border: 1px #fff solid;margin: auto;height: 30px;border: none;border-right: 1px solid #fff;border-left: 1px solid #fff}*/
